@@ -1,69 +1,71 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <title>Vinyl Store</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harrison Records</title>
+  <link rel="stylesheet" href="estilos.css">
 </head>
-
 <body>
-    <!--Inicio Header-->
-    <a href="#">
-        <img src="img/logo.png" alt="Logo empresa">
-    <div class="img2">
-        <img src="img/header-background.jpg" alt="background">
-    </div>
 
-    <h1>Productos</h1>
-
-    </a>
-    <div class="categorias">
+  <!-- Header -->
+  <header class="main-header">
+    <img src="logo.png" alt="Harrisons Records Logo" class="logo">
     <nav>
-        <a href="#">Nosotros</a>
-        <a href="#">Vinilos</a>
-        <a href="#">CDs</a>
-        <a href="#">Equipo</a>
-        <a href="#">Contacto</a>
+      <ul class="nav-links">
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Vinilos</a></li>
+        <li><a href="#">CDs</a></li>
+        <li><a href="#">Equipo</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
     </nav>
-    </div>
-    
-    <h1>Harrison Records</h1>
-    <h2>Vinyl Store</h2>
+  </header>
 
-    <!--Main-->
+  <!-- Hero Banner -->
+  <section class="hero">
+    <h1>Harrison Records<br><span>Vinyl Store</span></h1>
+  </section>
+
+  <!-- Productos -->
+  <section class="productos">
     <h2>Vinilos</h2>
-    <div id ="discos">
-    <img src="/img/vinilos/joy-division-unknown-pleasures.jpg" alt="Imagen vinilo">
-
-    <h3>Joy Division - Unknown Pleasures</h3>
-
-    <p>$30.000</p>
-
-    <a href="#">Ver mas</a>
-
-    <img src="/img/vinilos/bep.jpg" alt="Imagen vinilo">
-
-    <h3>Nivana</h3>
-
-    <p>$35.000</p>
-
-    <a href="#">Ver mas</a>
-
-    <img src="/img/vinilos/R-4493781-1366481262-6521.jpeg.webp" alt="Imagen vinilo">
-
-    <h3>Black Eyed Peas - The Beginning</h3>
-
-    <p>$30.000</p>
-
-    <a href="#">Ver mas</a>
-
+    <div class="vinilos-grid">
+      <div class="vinilo">
+        <img src="joy_division.jpg" alt="Joy Division">
+        <h3>Joy Division - Unknown Pleasures</h3>
+        <p>$30.000</p>
+        <button>Ver más</button>
+      </div>
+      <div class="vinilo">
+        <img src="nirvana.jpg" alt="Nirvana">
+        <h3>Nirvana - Nevermind</h3>
+        <p>$25.000</p>
+        <button>Ver más</button>
+      </div>
+      <div class="vinilo">
+        <img src="blackeyedpeas.jpg" alt="Black Eyed Peas">
+        <h3>Black Eyed Peas - The Beginning</h3>
+        <p>$30.000</p>
+        <button>Ver más</button>
+      </div>
     </div>
+  </section>
+
+  <!-- Sobre nosotros -->
+  <section class="sobre-nosotros">
+    <h2>Sobre nosotros</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ad, placeat et id dolore molestias dignissimos necessitatibus!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam minus assumenda maiores, illo, hic nostrum dolor...</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Programación Front End – TI3031 - Primavera 2025 | INACAP</p>
+  </footer>
+
+</body>
+</html>
         
     <h2>Sobre nosotros</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, placeat et id dolore molestias dignissimos

@@ -1,60 +1,101 @@
-/**General**/
-
-html {
-    box-sizing: border-box;
-    font-size: 62.5%;
-    font-family: 'Nunito', sans-serif;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
 }
 
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  padding: 1rem;
 }
 
-img {
-    max-width: 100%;
-    position: absolute;    
-}
-.img2 {
-    padding-right: 30%;
-
-}
-.categorias{
-    vertical-align: auto;
-    top: 60px;
+.logo {
+  height: 50px;
 }
 
-h2{
-    text-align: center;
-
- }
-
-h1{
-
-    size: 30px;
-    padding: auto;
-
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
 }
 
-#discos{
-    border: solid;
-    border-width: 1px;
-    padding: 5px;
-    background-color: aliceblue;
-    flex-flow: row wrap-reverse;
-    justify-content: center;
-}
-#discos img{
-
-    flex-basis: auto;
-    margin: 20px;
-    display: flex;
-    justify-content: space-between;
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-#discos h3{
+.hero {
+  background: url('turntable.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
 
-    text-align: center;
+.hero h1 span {
+  color: gold;
+}
 
+.productos {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.productos h2 {
+  color: gold;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.vinilos-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.vinilo {
+  width: 200px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.vinilo img {
+  width: 100%;
+  height: auto;
+}
+
+.vinilo h3 {
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.vinilo p {
+  color: green;
+  font-weight: bold;
+}
+
+.vinilo button {
+  background-color: gold;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.sobre-nosotros {
+  background-color: #111;
+  color: gold;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ddd;
+  font-size: 0.9em;
 }

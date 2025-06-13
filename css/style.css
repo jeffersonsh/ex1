@@ -1,0 +1,60 @@
+/**General**/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Nunito', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+    position: absolute;    
+}
+.img2 {
+    padding-right: 30%;
+
+}
+.categorias{
+    vertical-align: auto;
+    top: 60px;
+}
+
+h2{
+    text-align: center;
+
+ }
+
+h1{
+
+    size: 30px;
+    padding: auto;
+
+}
+
+#discos{
+    border: solid;
+    border-width: 1px;
+    padding: 5px;
+    background-color: aliceblue;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+}
+#discos img{
+
+    flex-basis: auto;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#discos h3{
+
+    text-align: center;
+
+}
